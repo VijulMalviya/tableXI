@@ -1,0 +1,105 @@
+@media screen and (max-width:576px){
+    .nav-links h6{
+        display: initial;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .maindata h1{
+        font-size: 2rem;
+    }
+    .data-1 img{
+        width: 45vw;
+    }
+    .data-2 img ,.data-6 img {
+        width: 30vw;
+    }
+    .data-3 img {
+        width: 25vw;
+    }
+    .data-4 img,.data-5 img  {
+        width: 35vw;
+    }
+    
+    .data-1-img img,.data-2-img img,.data-3-img img,.data-4-img img,.data-5-img img,.data-6-img img{
+        width: 80vw;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    .hidden-lg{
+        display: initial !important;
+        margin-bottom: 3rem;
+    }
+    .partners-logo img {
+        width: 25vw;
+    }
+  
+    .partners{
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+    footer{
+        height: 140vh ;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    .nav-links h6{
+        display: initial;
+        font-size: 1.5rem;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .data-1-img img,.data-2-img img,.data-3-img img,.data-4-img img,.data-5-img img,.data-6-img img{
+        width: 50vw;
+    }
+    .partners-logo img {
+        width: 20vw;
+    }
+    .partners {
+        height: 90vh;
+    }
+    footer{
+        height: 45vh;
+    }
+    
+}
+@media screen and (min-width:993px) and (max-width:1024px){
+    
+    .data-1-img img,.data-2-img img,.data-3-img img,.data-4-img img,.data-5-img img,.data-6-img img{
+        width: 35vw;
+    }
+    .partners-logo img {
+        width: 115vw;
+    }
+    .partners {
+        height: 65vh;
+    }
+    footer{
+        height: 35vh;
+    }
+    
+}
+@media screen and (min-width:993px) and (max-width:1024px) and ( orientation:landscape ){
+    
+    .data-1-img img,.data-2-img img,.data-3-img img,.data-4-img img,.data-5-img img,.data-6-img img{
+        width: 35vw;
+    }
+    .partners-logo img {
+        width: 115vw;
+    }
+    .partners {
+        height: 115vh;
+    }
+    footer{
+        height: 60vh !important;
+    }
+    
+
+}
